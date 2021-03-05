@@ -11,3 +11,17 @@ $(document.getElementById("san1")).ready(function(){
       });
   });
 
+  //Attribute manipulation..
+
+  //for javaScript>>
+
+//   var myattri = document.querySelector("a").getAttribute("href");
+//   console.log(myattri);
+
+//get element using jQuery>>
+
+//$("a").attr("href");
+// $("a").setAttr("href","https://github.com/hasan972");
+  
+
+
