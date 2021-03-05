@@ -1,15 +1,14 @@
-$(document.getElementById("san1")).ready(function(){
+
     $("button").click(function(){
       $("p").html("Hello <b>world!</b>");
     });
-  });
+
   
-  $(document.getElementById("san2")).ready(function(){
       $("button").click(function(){
         $("h1").html("change");
 
       });
-  });
+
 
   //Attribute manipulation..
 
@@ -29,3 +28,8 @@ $(document.getElementById("san1")).ready(function(){
 // jason syyle >> $("h3").css({"color":"red", "font-size":"2rem"});
 //for javaScript >> document.getElement("h3").classList.add/remove("style1");
 // External css add >> $("h3").addClass("style1");
+
+//eventListner
+ $("button").click(function(){
+     $("h3").toggleClass("style1")
+ })
