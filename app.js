@@ -1,13 +1,13 @@
 
-    $("button").click(function(){
-      $("p").html("Hello <b>world!</b>");
-    });
-
-  
-      $("button").click(function(){
-        $("h1").html("change");
-
-      });
+    // $("button").click(function(){
+    //   $("p").html("Hello <b>world!</b>");
+    // });
+    //
+    //
+    //   $("button").click(function(){
+    //     $("h1").html("change");
+    //
+    //   });
 
 
   //Attribute manipulation..
@@ -21,7 +21,7 @@
 
 //$("a").attr("href");
 // $("a").setAttr("href","https://github.com/hasan972");
-  
+
 // image manipulation..
 
 // simple rule >> $("h3").css("color","red");
@@ -30,6 +30,22 @@
 // External css add >> $("h3").addClass("style1");
 
 //eventListner
- $("button").click(function(){
-     $("h3").toggleClass("style1")
- })
+ // $("button").click(function(){
+ //     $("h3").toggleClass("style1")
+ // })
+
+ //login
+ $("#loginButton").click(function(){
+ var password1 = $("#pass1").val();
+ var password2 = $("#pass2").val();
+
+ if(password1 != "" && password2 != ""){
+   if(password1 == password2){
+     alert("successfully login")
+   }else {
+      alert("password mismach");
+   }
+ }else {
+   alert("Please enter password")
+ }
+})
