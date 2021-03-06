@@ -52,4 +52,5 @@
 //Animation
 $("#btn").click(function(){
  $("#myDiv").hide(2000);
+ 
  });
