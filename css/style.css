@@ -1,5 +1,5 @@
 #san {
-    height: 500px;
+    height: 650px;
 
 }
 .para-style{
@@ -20,4 +20,11 @@
   color: blueviolet;
   font-style: italic;
 
+}
+.container {
+    width: 100%;
+    padding-right: -1px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }

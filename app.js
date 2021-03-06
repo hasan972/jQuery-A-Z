@@ -49,3 +49,7 @@
    alert("Please enter password")
  }
 })
+//Animation
+$("#btn").click(function(){
+ $("#myDiv").hide(2000);
+ });
